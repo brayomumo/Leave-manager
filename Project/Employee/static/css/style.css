@@ -1,0 +1,14 @@
+
+ul ol{
+    display: inline;
+    font-size: 20px;
+}
+form{
+    margin-top: 80px;
+    margin-left: 50px;
+    border-color: black;
+    border: 10px;
+}
+.desc{
+    color: rgb(77, 78, 78);
+}

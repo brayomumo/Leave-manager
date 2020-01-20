@@ -1,0 +1,53 @@
+{% load bootstrap3 %}
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/styles.min.css' %}">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.js' %}" rel="stylesheet">
+    <link href="{% static 'css/main_style.css' %}" rel="stylesheet">
+
+    <title>Welcome</title>
+</head>
+<body>
+    <!-- <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <ul class="navbar">
+                <ol><a href="#">Home</a> </ol>
+                <ol> <a href="#about"> About</a></ol>
+                <ol><a href="/signin.html">Sign in</a> </ol>
+                
+            </ul>
+        </nav>
+    </div> -->
+    <ul class="flex border-b">
+        <li class="-mb-px mr-1">
+          <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold" href="#home">Home</a>
+        </li>
+        <li class="mr-1">
+          <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="#about">About</a>
+        </li>
+        <li class="mr-1">
+          <a class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="/signin.html">Sign in</a>
+        </li>
+      </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h2> Welcome to TSC leave Management system</h2>
+    </div>
+    <div class="container mx-auto">
+        <section class="flex items-center justify-center h-screen">
+          <h1 class="text-5xl">Django + Tailwind = ❤️</h1>
+        </section>
+      
+      </div>
+</body>
+</html>
